@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кружок и линия</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="circle"></div>
+    <div id="line"></div>
+    <div class="controls">
+        <button id="startButton">Запустить</button>
+        <p>Отскоки: <span id="bounceCount">0</span></p>
+        <label for="speedSlider">Скорость:</label>
+        <input type="range" id="speedSlider" min="1" max="20" value="10">
+        <label for="linePosition">Позиция линии:</label>
+        <input type="range" id="linePosition" min="0" max="500" value="300">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

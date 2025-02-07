@@ -1,0 +1,45 @@
+body {
+    background-color: #3b3b3b;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#circle {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+#line {
+    position: absolute;
+    width: 5px;
+    height: 100px;
+    background-color: white;
+    top: 25px;
+    right: 0px;
+}
+
+.controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.controls label {
+    display: block;
+    margin: 5px 0;
+}
+
+.controls input[type="range"] {
+    width: 100%;
+}
